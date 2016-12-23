@@ -21,6 +21,7 @@ public class QuedaStalag : MonoBehaviour {
 			GameObject.FindWithTag ("Estalags3").GetComponent<Rigidbody> ().useGravity = true;
 			GameObject.FindWithTag ("Estalags4").GetComponent<Rigidbody> ().useGravity = true;
 			GameObject.FindWithTag ("Estalags5").GetComponent<Rigidbody> ().useGravity = true;
+		
 
 
 		}

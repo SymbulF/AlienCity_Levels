@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1899945B-FCC5-D354-5AF9-1AB8ABA77DD9}</ProjectGuid>
+    <ProjectGuid>{C1D18DFA-0350-73DF-0F3E-46C89FC12435}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,16 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AtivaArmadilha.cs" />
      <Compile Include="Assets\Scripts\CarregaMenu.cs" />
      <Compile Include="Assets\Scripts\ConfigSom.cs" />
      <Compile Include="Assets\Scripts\InstanciaPedras.cs" />
      <Compile Include="Assets\Scripts\MenuControle.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth1.cs" />
      <Compile Include="Assets\Scripts\QuedaStalag.cs" />
      <Compile Include="Assets\Scripts\QuedaStalag2.cs" />
      <Compile Include="Assets\Scripts\RotacionaPedra.cs" />
-     <Compile Include="Assets\Scripts\TocaEmArmad.cs" />
      <Compile Include="Assets\Scripts\TocaSom.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
