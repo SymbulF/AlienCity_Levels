@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2ED69833-BF8C-B33C-80EA-F0DAA892400E}") = "joystick", "Assembly-CSharp.csproj", "{7BC8A899-4E9A-71FB-040D-49913D4F5A74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC8A899-4E9A-71FB-040D-49913D4F5A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC8A899-4E9A-71FB-040D-49913D4F5A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC8A899-4E9A-71FB-040D-49913D4F5A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC8A899-4E9A-71FB-040D-49913D4F5A74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

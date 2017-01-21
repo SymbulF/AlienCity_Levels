@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using CnControls;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour {
@@ -23,8 +24,9 @@ public class PlayerController : MonoBehaviour {
 
 	void Update()
 	{
-		Vector3 move = Input.GetAxis ("Vertical") * transform.TransformDirection (Vector3.forward) * MoveSpeed;
-		transform.Rotate (new Vector3 (0, Input.GetAxis ("Horizontal") * RotationSpeed * Time.deltaTime, 0));
+		Vector3 move = CnInputManager.GetAxis("Vertical") * transform.TransformDirection (Vector3.forward) * MoveSpeed;
+			//Input.GetAxis ("Vertical") * transform.TransformDirection (Vector3.forward) * MoveSpeed;
+		transform.Rotate (new Vector3 (0, CnInputManager.GetAxis("Horizontal") * RotationSpeed * Time.deltaTime, 0));
 		
 		if (!cc.isGrounded) {
 			gravidade += Physics.gravity * Time.deltaTime;
@@ -52,7 +54,7 @@ public class PlayerController : MonoBehaviour {
 		} 
 		else 
 		{
-			if(Input.GetKeyDown("space"))
+			if(CnInputManager.GetButton("Jump"))			//Input.GetKeyDown("space")
 			{
 				anim.SetTrigger("Pula");
 				jump = true;

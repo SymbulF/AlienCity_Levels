@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerHealth1.cs">
     <Files>
-      <File FileName="Assets\Scripts\QuedaStalag.cs" Line="19" Column="1" />
-      <File FileName="Assets\Scripts\PlayerHealth1.cs" Line="91" Column="4" />
-      <File FileName="Assets\Scripts\QuedaStalag2.cs" Line="25" Column="4" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="57" Column="37" />
+      <File FileName="Assets\Standard Assets\CNControls\Scripts\CnInputSystem\CnInputManager.cs" Line="99" Column="72" />
+      <File FileName="Assets\Scripts\PlayerHealth1.cs" Line="57" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
