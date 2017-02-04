@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour {
 		} 
 		else 
 		{
-			if(CnInputManager.GetButton("Jump"))			//Input.GetKeyDown("space")
+			if(CnInputManager.GetButton("Jump"))
 			{
 				anim.SetTrigger("Pula");
 				jump = true;
